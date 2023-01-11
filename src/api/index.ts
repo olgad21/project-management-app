@@ -4,7 +4,7 @@ export * from './signInUp';
 export * from './boards';
 export * from './users';
 
-export const baseApiUrl = 'https://final-task-backend-production-e57b.up.railway.app';
+export const baseApiUrl = 'https://olgad21-teamber-backend-production.up.railway.app/';
 
 axios.interceptors.request.use((config) => ({
   ...config,
