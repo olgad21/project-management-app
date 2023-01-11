@@ -1,46 +1,21 @@
-# Getting Started with Create React App
+## Teamber Tasks Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+Final group project at RSSchool (EPAM). Teamber is an application that helps an individual in a team or group of developers achieve their goals. Try out now on [Teamber](https://timbertasks.netlify.app/) 
 
-## Available Scripts
+### We used
+ - TypeScript 
+ - React 
+ - React Router
+ - React Hook Form
+ - Redux Toolkit 
+ - React beautiful dnd
+ - Antd Library
 
-In the project directory, you can run:
+### Sceenshots
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/34546155/211414762-71982347-e8d6-447c-bf15-019639f5ff1b.png">
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/34546155/211414849-705c94b3-7690-4a5f-99aa-2243c680135e.png">
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/34546155/211414980-2ae644a9-3737-4b94-b04f-acffacb8ce5e.png">
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/34546155/211415075-1b950f27-c1b5-49f5-9d06-d6c2e1d2f7e3.png">
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/34546155/211415414-ca513c42-c60d-4f7b-be6f-857b260b0d65.png">
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/34546155/211415477-8e960a46-0116-4ce4-b6a6-b8137b20bdb6.png">
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
