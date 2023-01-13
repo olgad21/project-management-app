@@ -45,7 +45,7 @@ export const HeaderOfApp: React.FC = () => {
   const langFromStorage = localStorage.getItem('lang');
 
   const [open, setOpen] = useState<boolean>(false);
-  const [lang, setLang] = useState<string>(langFromStorage ?? 'English');
+  const [lang, setLang] = useState<string>(langFromStorage ?? 'EN');
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const token = localStorage.getItem('token');
   const dispatch = useAppDispatch();

@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import { Content } from 'antd/lib/layout/layout';
-import { Col, Row, Typography, Divider, Button, Avatar } from 'antd';
+import { Col, Row, Typography, Divider, Button, Avatar, Image } from 'antd';
 import { useTranslation } from 'react-i18next';
 import styles from './welcome-page.module.scss';
 import {
@@ -137,7 +137,7 @@ export const WelcomePage: React.FC = () => {
             <div className={styles.left__cards}>
               <div className={styles.member__card}>
                 <Avatar
-                  src="https://joeschmoe.io/api/v1/male/jon"
+                  src={<Image src="https://cdn-icons-png.flaticon.com/512/4691/4691232.png" />}
                   className={styles.member__avatar}
                 />
                 <div className={styles.member__content}>
@@ -154,7 +154,7 @@ export const WelcomePage: React.FC = () => {
               </div>
               <div className={styles.member__card}>
                 <Avatar
-                  src="https://joeschmoe.io/api/v1/male/jordan"
+                  src="https://cdn-icons-png.flaticon.com/512/4691/4691258.png"
                   className={styles.member__avatar}
                 />
                 <div className={styles.member__content}>
@@ -173,7 +173,7 @@ export const WelcomePage: React.FC = () => {
             <div className={styles.right__cards}>
               <div className={styles.member__card}>
                 <Avatar
-                  src="https://joeschmoe.io/api/v1/female/jane"
+                  src="https://cdn-icons-png.flaticon.com/512/4691/4691273.png"
                   className={styles.member__avatar}
                 />
                 <div className={styles.member__content}>
@@ -190,7 +190,7 @@ export const WelcomePage: React.FC = () => {
               </div>
               <div className={styles.member__card}>
                 <Avatar
-                  src="https://joeschmoe.io/api/v1/female/julie"
+                  src="https://cdn-icons-png.flaticon.com/512/4691/4691267.png"
                   className={styles.member__avatar}
                 />
                 <div className={styles.member__content}>
